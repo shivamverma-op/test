@@ -4,7 +4,7 @@ import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
-
+import dotenv
 
 # Environment Variables
 API_ID = os.getenv("API_ID")
