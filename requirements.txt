@@ -1,0 +1,8 @@
+pyrogram
+tgcrypto
+motor
+pymongo[srv]
+aiohttp
+python-dotenv
+dnspython
+python-telegram-bot
