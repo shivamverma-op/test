@@ -7,11 +7,11 @@ from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 
 
 # Environment Variables
-API_ID = os.getenv("27548865")
-API_HASH = os.getenv("db07e06a5eb288c706d4df697b71ab61")
-TOKEN = os.getenv("8106783844:AAHfMF4EUAHmQM7b7Eh3_2a30wjW3UkkaQI")
+API_ID = os.getenv("API_ID")
+API_HASH = os.getenv("API_HASH")
+TOKEN = os.getenv("TOKEN")
 SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "hgbotsupportgroup")
-BOT_OWNER_ID = int(os.getenv("OWNER_ID", "6239769036"))
+BOT_OWNER_ID = int(os.getenv("OWNER_ID", "7074356361"))
 
 if not (API_ID and API_HASH and TOKEN):
     sys.exit("API_ID, API_HASH, and TOKEN must be set in environment variables.")
